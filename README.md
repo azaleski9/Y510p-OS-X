@@ -73,26 +73,25 @@ That's all with that config Catalina installer should boot. If something does no
 
 ## Links
 
-Clover bootloader: https://sourceforge.net/projects/cloverefiboot
-Clover configurator: https://mackie100projects.altervista.org/download-clover-configurator/
-AirportBrcmFixup: https://github.com/acidanthera/AirportBrcmFixup
-AppleALC: https://github.com/acidanthera/AppleALC
-AtherosE2200Ethernet: https://github.com/Mieze/AtherosE2200Ethernet
-BrcmPatchRAM: https://github.com/RehabMan/OS-X-BrcmPatchRAM (Mojave) or https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/ (Catalina)
-CodecCommander: https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads/
-Lilu: https://github.com/acidanthera/Lilu
-VirtualSMC: https://github.com/acidanthera/VirtualSMC
-WhateverGreen: https://github.com/acidanthera/WhateverGreen
-Original VoodooPS2 sources: https://github.com/acidanthera/VoodooPS2
+* Clover bootloader: https://sourceforge.net/projects/cloverefiboot
+* Clover configurator: https://mackie100projects.altervista.org/download-clover-configurator/
+* AirportBrcmFixup: https://github.com/acidanthera/AirportBrcmFixup
+* AppleALC: https://github.com/acidanthera/AppleALC
+* AtherosE2200Ethernet: https://github.com/Mieze/AtherosE2200Ethernet
+* BrcmPatchRAM: https://github.com/RehabMan/OS-X-BrcmPatchRAM (Mojave) or https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/ (Catalina)
+* CodecCommander: https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads/
+* Lilu: https://github.com/acidanthera/Lilu
+* VirtualSMC: https://github.com/acidanthera/VirtualSMC
+* WhateverGreen: https://github.com/acidanthera/WhateverGreen
+* Original VoodooPS2 sources: https://github.com/acidanthera/VoodooPS2
 
 ## Thanks to
 
-@acidanthera for almost all kexts I use there
-@apianti, @blackosx, @blusseau, @dmazar, @slice2009 for Clover Bootloader
-@Mieze for AtherosE2200Ethernet
-@RehabMan for CodecCommander and BrcmPatchRam
-@mackie100projects for Clover configurator
-@headkaze for fixes to BrcmPatchRAM on 10.15
-@ahmed_ais for first tutorial how to install macOS on Lenovo Y510P
-
-And many more people about I didn't know.
+* @acidanthera for almost all kexts I use there
+* @apianti, @blackosx, @blusseau, @dmazar, @slice2009 for Clover Bootloader
+* @Mieze for AtherosE2200Ethernet
+* @RehabMan for CodecCommander and BrcmPatchRam
+* @mackie100projects for Clover configurator
+* @headkaze for fixes to BrcmPatchRAM on 10.15
+* @ahmed_ais for first tutorial how to install macOS on Lenovo Y510P
+* And many more people about I didn't know.
