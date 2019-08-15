@@ -22,7 +22,7 @@ You should prepare USB drive with Vanilia (untouched) macOS installer. You can r
 
 All needed Clover configuration I provide you here. We use the same config for installation and normal use.
 
-## Post-installtion
+## Post-installation
 
 All needed patches are included in Clover directories. You don't need to care about patching system after installation.
 
@@ -67,32 +67,33 @@ You should collect these kexts:
 
 These kexts I included in my repo and you should push them too:
 * USBPorts (Fixes USB ports visible as internal instead external)
-* VoodooPS2Controller (I modified some config here, so many OS X gestrues work  including Force Touch emulation)
+* VoodooPS2Controller (I modified some config.plist here, so many OS X gestrues work  including Force Touch emulation. If you want to use later version from original repo just replace config.plist from my kexts or use default config provided by developer)
+
+Push all these kexts to kexts/Other.
 
 That's all with that config Catalina installer should boot. If something does not work compare it with my configuration.
 
 ## Links
 
-Clover bootloader: https://sourceforge.net/projects/cloverefiboot
-Clover configurator: https://mackie100projects.altervista.org/download-clover-configurator/
-AirportBrcmFixup: https://github.com/acidanthera/AirportBrcmFixup
-AppleALC: https://github.com/acidanthera/AppleALC
-AtherosE2200Ethernet: https://github.com/Mieze/AtherosE2200Ethernet
-BrcmPatchRAM: https://github.com/RehabMan/OS-X-BrcmPatchRAM (Mojave) or https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/ (Catalina)
-CodecCommander: https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads/
-Lilu: https://github.com/acidanthera/Lilu
-VirtualSMC: https://github.com/acidanthera/VirtualSMC
-WhateverGreen: https://github.com/acidanthera/WhateverGreen
-Original VoodooPS2 sources: https://github.com/acidanthera/VoodooPS2
+* Clover bootloader: https://sourceforge.net/projects/cloverefiboot
+* Clover configurator: https://mackie100projects.altervista.org/download-clover-configurator/
+* AirportBrcmFixup: https://github.com/acidanthera/AirportBrcmFixup
+* AppleALC: https://github.com/acidanthera/AppleALC
+* AtherosE2200Ethernet: https://github.com/Mieze/AtherosE2200Ethernet
+* BrcmPatchRAM: https://github.com/RehabMan/OS-X-BrcmPatchRAM (Mojave) or https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/ (Catalina)
+* CodecCommander: https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads/
+* Lilu: https://github.com/acidanthera/Lilu
+* VirtualSMC: https://github.com/acidanthera/VirtualSMC
+* WhateverGreen: https://github.com/acidanthera/WhateverGreen
+* Original VoodooPS2 sources: https://github.com/acidanthera/VoodooPS2
 
 ## Thanks to
 
-@acidanthera for almost all kexts I use there
-@apianti, @blackosx, @blusseau, @dmazar, @slice2009 for Clover Bootloader
-@Mieze for AtherosE2200Ethernet
-@RehabMan for CodecCommander and BrcmPatchRam
-@mackie100projects for Clover configurator
-@headkaze for fixes to BrcmPatchRAM on 10.15
-@ahmed_ais for first tutorial how to install macOS on Lenovo Y510P
-
-And many more people about I didn't know.
+* @acidanthera for almost all kexts I use there
+* @apianti, @blackosx, @blusseau, @dmazar, @slice2009 for Clover Bootloader
+* @Mieze for AtherosE2200Ethernet
+* @RehabMan for CodecCommander and BrcmPatchRam
+* @mackie100projects for Clover configurator
+* @headkaze for fixes to BrcmPatchRAM on 10.15
+* @ahmed_ais for first tutorial how to install macOS on Lenovo Y510P
+* And many more people about I didn't know.
