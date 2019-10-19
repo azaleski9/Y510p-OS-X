@@ -794,6 +794,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Disable panic after sleep</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				Y29tLmFwcGxlAF9fa2VybmVsX18A
+				</data>
+				<key>MatchOS</key>
+				<string>10.15.x</string>
+				<key>Replace</key>
+				<data>
+				bm90LmFwcGxlAF9fa2VybmVsX18A
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
 				<key>Disabled</key>
 				<false/>
