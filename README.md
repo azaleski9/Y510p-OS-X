@@ -1,4 +1,4 @@
-# Mac OS X Mojave/Catalina DP5 on Lenovo Y510P
+# Mac OS X Mojave/Catalina on Lenovo Y510P
 
 * This guide is intended to help Lenovo Y510p users to try OS X for educational purposes. You should buy Apple computer to be able to use Apple software legally in compliance with Apple's macOS EULA.
 * There can be many small things that doesn't work and I don't know about it. Please make appropriate issues here so we can try fix it together.
@@ -28,7 +28,7 @@ All needed patches are included in Clover directories. You don't need to care ab
 
 ## How to configure Clover bootloader?
 
-TLDR. For lazy people (or people who want to verify their config) I attach ready Clover directory, but It may have outdated kexts and patches. You need to fill SMBIOS details (serial number etc.) using for example Clover Configurator. **I always recommend doing own Clover configuration. Why? Because you will encouter many more problems with OS X later. Configuring macOS manually will teach you how everything works** So let's do this.
+TLDR. For lazy people (or people who want to verify their config) I attach ready Clover directory, but <strong>It has outdated kexts and patches.</strong> You need to fill SMBIOS details (serial number etc.) using for example Clover Configurator. **I always recommend doing own Clover configuration. Why? Because you will encouter many more problems with OS X later. Configuring macOS manually will teach you how everything works** So let's do this.
 
 ### 1. Clover installation
 
@@ -59,7 +59,7 @@ You should collect these kexts:
 * AirportBrcmFixup (Broadcom BCM94352HMB)
 * AppleALC (Sound)
 * AtherosE2200Ethernet (Etherner adapter)
-* BrcmBluetoothInjector, BrcmFirmwareData, BrcmPatchRAM2 (Bluetooth)
+* BrcmBluetoothInjector, BrcmFirmwareData, BrcmPatchRAM3 (Bluetooth)
 * CodecCommander (Sound fix after sleep)
 * Lilu
 * VirtualSMC, SMCBatteryManager, SMCProcessor, SMCSuperIO
@@ -80,7 +80,7 @@ That's all with that config Catalina installer should boot. If something does no
 * AirportBrcmFixup: https://github.com/acidanthera/AirportBrcmFixup
 * AppleALC: https://github.com/acidanthera/AppleALC
 * AtherosE2200Ethernet: https://github.com/Mieze/AtherosE2200Ethernet
-* BrcmPatchRAM: https://github.com/RehabMan/OS-X-BrcmPatchRAM (Mojave) or https://www.insanelymac.com/forum/topic/339175-brcmpatchram2-for-1015-catalina-broadcom-bluetooth-firmware-upload/ (Catalina)
+* BrcmPatchRAM: https://github.com/acidanthera/BrcmPatchRAM
 * CodecCommander: https://bitbucket.org/RehabMan/os-x-eapd-codec-commander/downloads/
 * Lilu: https://github.com/acidanthera/Lilu
 * VirtualSMC: https://github.com/acidanthera/VirtualSMC
@@ -92,7 +92,7 @@ That's all with that config Catalina installer should boot. If something does no
 * @acidanthera for almost all kexts I use there
 * @apianti, @blackosx, @blusseau, @dmazar, @slice2009 for Clover Bootloader
 * @Mieze for AtherosE2200Ethernet
-* @RehabMan for CodecCommander and BrcmPatchRam
+* @RehabMan for CodecCommander
 * @mackie100projects for Clover configurator
 * @headkaze for fixes to BrcmPatchRAM on 10.15
 * @ahmed_ais for first tutorial how to install macOS on Lenovo Y510P
